@@ -1,0 +1,19 @@
+label {
+  display: block;
+  font: 1rem "Fira Sans", sans-serif;
+}
+
+input, 
+  /* margin-top: 200px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 90px; */
+label {
+  margin: 0.4rem, 0;
+}
+
+body {
+  height: 400px;
+  width: 300px;
+  background-color: #cc00ff;
+}
