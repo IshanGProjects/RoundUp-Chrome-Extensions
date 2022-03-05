@@ -10,7 +10,7 @@ input.addEventListener("keyup", function(event) {
     event.preventDefault();
     donateAmnt = donateAmount(input.value)
     var output = document.getElementById("output");
-    output.innerHTML = "Amount: " + donateAmnt
+    output.innerHTML = "Amount: $" + donateAmnt
   }
 });
 

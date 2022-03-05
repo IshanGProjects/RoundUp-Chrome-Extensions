@@ -1,3 +1,4 @@
+
 label {
   display: block;
   font: 1rem "Fira Sans", sans-serif;
@@ -12,8 +13,125 @@ label {
   margin: 0.4rem, 0;
 }
 
-body {
+ body {
   height: 400px;
   width: 300px;
-  background-color: #cc00ff;
+  background-color: #EFEBF4;
+} 
+
+a.button1 {
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+a.button1:hover {
+  color: #000000;
+  background-color: #7C5295;
+}
+@media all and (max-width: 30em) {
+  a.button1 {
+    display: block;
+    margin: 0.4em auto;
+  }
+
+  /* Dropdown Button */
+.dropbtn {
+  background-color: #3D1961;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #7C5295;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block; }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #7C5295;}
+}
+
+/* Tab stuff */
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px inset #ccc;
+  background-color: #3D1961;
+}
+ 
+
+ /* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  width: 99px;
+  text-decoration: none;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #7C5295;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #7C5295;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px inset #ccc;
+  border-top: none;
+  color: #ffffff;
+}
+
+h1{
+  font-family: 'PT Serif', serif;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ffffff;
 }
