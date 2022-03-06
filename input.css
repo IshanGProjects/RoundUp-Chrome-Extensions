@@ -220,6 +220,7 @@ input[type=text]:focus {
   text-align: center;
 }
 
+
 .Deworm-The-World { 
   grid-area: 1 / 3 / 2 / 4; 
   background-color: #bca0dc;
@@ -273,14 +274,7 @@ input[type=text]:focus {
   text-align: center;
  }
 
-.RoundUp { 
- grid-area: 1 / 2 / 2 / 3; 
- background-color: #EFEBF4;
- /* border: 1px solid rgba(0, 0, 0, 0.8); */
- padding: 20px;
- font-size: 15px;
- text-align: center;
-}
+
 
 .city-year { 
  grid-area: 1 / 3 / 2 / 4; 
@@ -306,9 +300,13 @@ input[type=text]:focus {
  background-color: #bca0dc;
  border: 1px solid rgba(0, 0, 0, 0.8);
  padding: 20px;
- font-size: 15px;
-  
+ font-size: 15px; 
 }
+.Smile-Foundation > a > p{
+  margin-left: -10px;
+  margin-top: 0px;
+  overflow: auto;
+} 
 /* .Alzheimers-Association > a > p{
  margin-left: -5px;
  margin-top: 0px;
@@ -337,14 +335,7 @@ input[type=text]:focus {
   text-align: center;
  }
 
-.RoundUp { 
- grid-area: 1 / 2 / 2 / 3; 
- background-color: #EFEBF4;
- /* border: 1px solid rgba(0, 0, 0, 0.8); */
- padding: 20px;
- font-size: 15px;
- text-align: center;
-}
+
 
 .Natural-Resources-Defense-Council { 
  grid-area: 1 / 3 / 2 / 4; 
@@ -353,6 +344,8 @@ input[type=text]:focus {
  padding: 20px;
  font-size: 15px;
  text-align: center;
+ color: #ffffff;
+
 
 }
 
@@ -363,7 +356,13 @@ input[type=text]:focus {
  padding: 20px;
  font-size: 15px;
  text-align: center;
+ color: #ffffff;
 }
+.Environmental-Working-Group > a > p{
+ margin-left: -5px;
+ margin-top: 0px;
+ overflow: auto;
+} 
 
 .As-you-sow{
  grid-area: 2 / 2 / 3 / 4; 
@@ -371,13 +370,13 @@ input[type=text]:focus {
  border: 1px solid rgba(0, 0, 0, 0.8);
  padding: 20px;
  font-size: 15px;
-  
 }
-/* .Alzheimers-Association > a > p{
- margin-left: -5px;
- margin-top: 0px;
-  */
-/* } */
+.As-you-sow> a > p{
+  margin-left: -5px;
+  margin-top: 0px;
+  overflow: auto;
+ } 
+
 
 .Carbon-Fund{ 
  grid-area: 2 / 3 / 3 / 4; 
@@ -399,16 +398,11 @@ input[type=text]:focus {
   padding: 20px;
   font-size: 15px;
   text-align: center;
+  color: #ffffff;
+
  }
 
-.RoundUp { 
- grid-area: 1 / 2 / 2 / 3; 
- background-color: #EFEBF4;
- /* border: 1px solid rgba(0, 0, 0, 0.8); */
- padding: 20px;
- font-size: 15px;
- text-align: center;
-}
+
 
 .Elephant-Sanctuary { 
  grid-area: 1 / 3 / 2 / 4; 
@@ -417,6 +411,8 @@ input[type=text]:focus {
  padding: 20px;
  font-size: 15px;
  text-align: center;
+ color: #ffffff;
+
 
 }
 
@@ -427,6 +423,8 @@ input[type=text]:focus {
  padding: 20px;
  font-size: 15px;
  text-align: center;
+ color: #ffffff;
+
 }
 
 .Wildlife-Conservation-Society{
@@ -435,12 +433,13 @@ input[type=text]:focus {
  border: 1px solid rgba(0, 0, 0, 0.8);
  padding: 20px;
  font-size: 15px;
-  
+ color: #ffffff;
 }
 .Wildlife-Conservation-Society > a > p{
  margin-left: -5px;
  margin-top: 0px;
- 
+ color: #ffffff;
+
 }
 
 .Wild-animal-initiative{ 
@@ -450,6 +449,19 @@ input[type=text]:focus {
  padding: 20px;
  font-size: 15px;
  text-align: center;
+ color: #ffffff;
+
 }
 
 
+
+
+/* ---------------------- */
+.aboutUs > p {
+  font-family: 'PT Serif', serif;
+  text-align: center;
+}
+
+.aboutuslogo{
+  margin-left: 90px;
+}

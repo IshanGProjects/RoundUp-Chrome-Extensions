@@ -24,7 +24,7 @@
 
       <a href="goals.html"> <button style="color: white">Goals</button> </a>
 
-      <a href="stats.html"> <button style="color: white">Stats</button> </a>
+      <a href="stats.html"> <button style="color: white">About Us</button> </a>
     </div>
 
     <div class="alert">
@@ -32,13 +32,46 @@
       Please Enter a Goal.
     </div>
 
-    <form>
-      <label for="Goal">
+    <!-- <form>
+      <label for="amount">
         <p>Goal</p>
       </label>
-      <input type="text" id="Goal" name="Goal" placeholder="USD" />
-    </form>
+      <input type="text" id="amount" name="amount" placeholder="USD" required />
+    </form> -->
     <!-- FIGURE OUT HOW TO STORE GOAL VALUE AND THEN USE FUNCTION TO CHANGE PICTURES -->
+
+	  <label for="amount">Enter Goal:</label>
+    <input type="text" placeholder="USD" id="amount" name="amount" required
+        minlength="4" maxlength="8" size="18">
+     <label for="raised">Add To Amount Raised:</label>
+    <input type="text" placeholder="USD" id="raised" name="raised" required
+        minminlength="4" maxlength="8" size="18">
+
+        <!-- <form>
+          <label for="text">
+            <p>Add To Amount Raised:</p>
+          </label>
+          <input type="text" id="raised" name="raised" placeholder="USD" required />
+        </form> -->
+
+
+    <button type="button" id="resetGoal" )
+    class="btn btn-primary">
+    Reset Goal
+  </button>
+
+<h2 id="output"> </h2>
+<h2 id ="output2"></h2>
+<!-- <img src="jarImages/1.png" onload="this.onload=null; this.src=changeImage();" />
+<script src="goals.js"></script> -->
+
+
+
+
+
+
+
+
 
     <div class="jars">
       <img src="/images/jars/1.png" alt="jar1" />
