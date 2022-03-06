@@ -1,3 +1,9 @@
+html, body{
+  height: 100%;
+}
+
+
+
 
 label {
   display: block;
@@ -81,6 +87,9 @@ a.button1:hover {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block; }
 
+.dropdown-content:hover .dropdown-submenu {display: block;}
+
+
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #7C5295;}
 }
@@ -105,6 +114,8 @@ a.button1:hover {
   transition: 0.3s;
   width: 99px;
   text-decoration: none;
+  font-family:'Fredoka One', cursive;
+
 }
 
 /* Change background color of buttons on hover */
@@ -135,3 +146,310 @@ a:link {
   text-decoration: none;
   color: #ffffff;
 }
+
+
+.jars{
+
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 34px;
+  margin-right: 85px;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #7C5295;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+
+.container {
+  display: grid; 
+  grid-template-columns: 100px 100px 100px; 
+  grid-template-rows: 200px 200px; 
+  gap: 0px 0px; 
+}
+
+
+.Malaria-No-More- {
+   grid-area: 1 / 1 / 2 / 2; 
+   background-color: #bca0dc;
+   border: 1px solid rgba(0, 0, 0, 0.8);
+   padding: 20px;
+   font-size: 15px;
+   text-align: center;
+  }
+
+.RoundUp { 
+  grid-area: 1 / 2 / 2 / 3; 
+  background-color: #EFEBF4;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.Deworm-The-World { 
+  grid-area: 1 / 3 / 2 / 4; 
+  background-color: #bca0dc;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.Give-Directly { 
+  grid-area: 2 / 1 / 3 / 2; 
+  background-color: #bca0dc;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.Alzheimers-Association {
+  grid-area: 2 / 2 / 3 / 4; 
+  background-color: #bca0dc;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+   
+}
+.Alzheimers-Association > a > p{
+  margin-left: -5px;
+  margin-top: 0px;
+  
+}
+
+.Borgan-Project { 
+  grid-area: 2 / 3 / 3 / 4; 
+  background-color: #bca0dc;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+/* ------------------------------------ */
+.akshayapatra {
+  grid-area: 1 / 1 / 2 / 2; 
+  background-color: #bca0dc;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+ }
+
+.RoundUp { 
+ grid-area: 1 / 2 / 2 / 3; 
+ background-color: #EFEBF4;
+ /* border: 1px solid rgba(0, 0, 0, 0.8); */
+ padding: 20px;
+ font-size: 15px;
+ text-align: center;
+}
+
+.city-year { 
+ grid-area: 1 / 3 / 2 / 4; 
+ background-color: #bca0dc;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 15px;
+ text-align: center;
+
+}
+
+.Association-For-Childhood-Education-International { 
+ grid-area: 2 / 1 / 3 / 2; 
+ background-color: #bca0dc;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 15px;
+ text-align: center;
+}
+
+.Smile-Foundation{
+ grid-area: 2 / 2 / 3 / 4; 
+ background-color: #bca0dc;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 15px;
+  
+}
+/* .Alzheimers-Association > a > p{
+ margin-left: -5px;
+ margin-top: 0px;
+  */
+/* } */
+
+.womensglobal { 
+ grid-area: 2 / 3 / 3 / 4; 
+ background-color: #bca0dc;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 15px;
+ text-align: center;
+}
+
+
+/* ------------------------------------ */
+
+
+.Carbon-180{
+  grid-area: 1 / 1 / 2 / 2; 
+  background-color: #bca0dc;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+ }
+
+.RoundUp { 
+ grid-area: 1 / 2 / 2 / 3; 
+ background-color: #EFEBF4;
+ /* border: 1px solid rgba(0, 0, 0, 0.8); */
+ padding: 20px;
+ font-size: 15px;
+ text-align: center;
+}
+
+.Natural-Resources-Defense-Council { 
+ grid-area: 1 / 3 / 2 / 4; 
+ background-color: #bca0dc;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 15px;
+ text-align: center;
+
+}
+
+.Environmental-Working-Group { 
+ grid-area: 2 / 1 / 3 / 2; 
+ background-color: #bca0dc;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 15px;
+ text-align: center;
+}
+
+.As-you-sow{
+ grid-area: 2 / 2 / 3 / 4; 
+ background-color: #bca0dc;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 15px;
+  
+}
+/* .Alzheimers-Association > a > p{
+ margin-left: -5px;
+ margin-top: 0px;
+  */
+/* } */
+
+.Carbon-Fund{ 
+ grid-area: 2 / 3 / 3 / 4; 
+ background-color: #bca0dc;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 15px;
+ text-align: center;
+}
+
+/* ------------------------------------ */
+
+
+
+.Animal-Welfare-Institute{
+  grid-area: 1 / 1 / 2 / 2; 
+  background-color: #bca0dc;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+ }
+
+.RoundUp { 
+ grid-area: 1 / 2 / 2 / 3; 
+ background-color: #EFEBF4;
+ /* border: 1px solid rgba(0, 0, 0, 0.8); */
+ padding: 20px;
+ font-size: 15px;
+ text-align: center;
+}
+
+.Elephant-Sanctuary { 
+ grid-area: 1 / 3 / 2 / 4; 
+ background-color: #bca0dc;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 15px;
+ text-align: center;
+
+}
+
+.World-Wildlife-Fund { 
+ grid-area: 2 / 1 / 3 / 2; 
+ background-color: #bca0dc;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 15px;
+ text-align: center;
+}
+
+.Wildlife-Conservation-Society{
+ grid-area: 2 / 2 / 3 / 4; 
+ background-color: #bca0dc;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 15px;
+  
+}
+.Wildlife-Conservation-Society > a > p{
+ margin-left: -5px;
+ margin-top: 0px;
+ 
+}
+
+.Wild-animal-initiative{ 
+ grid-area: 2 / 3 / 3 / 4; 
+ background-color: #bca0dc;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 15px;
+ text-align: center;
+}
+
+
